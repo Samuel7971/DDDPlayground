@@ -21,6 +21,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HexaFlow.SqlServer", "src\I
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HexaFlow.API", "src\Presentation\HexaFlow.API\HexaFlow.API.csproj", "{F6704E77-B86B-4153-84A3-A837081FE01B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HexaFlow.Mongo", "src\Infrastructure\HexaFlow.Mongo\HexaFlow.Mongo.csproj", "{88262A05-EE5E-4230-8CFC-7E7B6F456705}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -43,6 +45,10 @@ Global
 		{F6704E77-B86B-4153-84A3-A837081FE01B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F6704E77-B86B-4153-84A3-A837081FE01B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F6704E77-B86B-4153-84A3-A837081FE01B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{88262A05-EE5E-4230-8CFC-7E7B6F456705}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{88262A05-EE5E-4230-8CFC-7E7B6F456705}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{88262A05-EE5E-4230-8CFC-7E7B6F456705}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{88262A05-EE5E-4230-8CFC-7E7B6F456705}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -55,6 +61,7 @@ Global
 		{F07405EF-329F-4058-BD15-10519BAFED75} = {2715B63D-DAB8-4DB3-98FA-F133C36ABF3E}
 		{AB6FBC74-1B08-4102-9759-4852F4B5DDB1} = {FB3CFE97-5B0C-425A-A96B-A2BD008B8FDC}
 		{F6704E77-B86B-4153-84A3-A837081FE01B} = {38944D1C-5368-4526-A778-61D7F92C7B39}
+		{88262A05-EE5E-4230-8CFC-7E7B6F456705} = {FB3CFE97-5B0C-425A-A96B-A2BD008B8FDC}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {ED59D88F-AF9F-4316-B770-DB21EC5B7327}
