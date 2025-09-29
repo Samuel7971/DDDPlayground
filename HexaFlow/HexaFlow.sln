@@ -1,11 +1,60 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.14.36327.8 d17.14
+VisualStudioVersion = 17.14.36327.8
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{8D4398CC-D231-45C7-8CAD-2469136FDE63}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{2715B63D-DAB8-4DB3-98FA-F133C36ABF3E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{FB3CFE97-5B0C-425A-A96B-A2BD008B8FDC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentation", "{38944D1C-5368-4526-A778-61D7F92C7B39}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HexaFlox.Application", "src\Core\HexaFlox.Application\HexaFlox.Application.csproj", "{04BAC487-0209-478B-9E9C-BE121D784F8E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HexaFlow.Domain", "src\Core\HexaFlow.Domain\HexaFlow.Domain.csproj", "{F07405EF-329F-4058-BD15-10519BAFED75}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HexaFlow.SqlServer", "src\Infrastructure\HexaFlow.SqlServer\HexaFlow.SqlServer.csproj", "{AB6FBC74-1B08-4102-9759-4852F4B5DDB1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HexaFlow.API", "src\Presentation\HexaFlow.API\HexaFlow.API.csproj", "{F6704E77-B86B-4153-84A3-A837081FE01B}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{04BAC487-0209-478B-9E9C-BE121D784F8E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{04BAC487-0209-478B-9E9C-BE121D784F8E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{04BAC487-0209-478B-9E9C-BE121D784F8E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{04BAC487-0209-478B-9E9C-BE121D784F8E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F07405EF-329F-4058-BD15-10519BAFED75}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F07405EF-329F-4058-BD15-10519BAFED75}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F07405EF-329F-4058-BD15-10519BAFED75}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F07405EF-329F-4058-BD15-10519BAFED75}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AB6FBC74-1B08-4102-9759-4852F4B5DDB1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AB6FBC74-1B08-4102-9759-4852F4B5DDB1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AB6FBC74-1B08-4102-9759-4852F4B5DDB1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AB6FBC74-1B08-4102-9759-4852F4B5DDB1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F6704E77-B86B-4153-84A3-A837081FE01B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F6704E77-B86B-4153-84A3-A837081FE01B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F6704E77-B86B-4153-84A3-A837081FE01B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F6704E77-B86B-4153-84A3-A837081FE01B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{2715B63D-DAB8-4DB3-98FA-F133C36ABF3E} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{FB3CFE97-5B0C-425A-A96B-A2BD008B8FDC} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{38944D1C-5368-4526-A778-61D7F92C7B39} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{04BAC487-0209-478B-9E9C-BE121D784F8E} = {2715B63D-DAB8-4DB3-98FA-F133C36ABF3E}
+		{F07405EF-329F-4058-BD15-10519BAFED75} = {2715B63D-DAB8-4DB3-98FA-F133C36ABF3E}
+		{AB6FBC74-1B08-4102-9759-4852F4B5DDB1} = {FB3CFE97-5B0C-425A-A96B-A2BD008B8FDC}
+		{F6704E77-B86B-4153-84A3-A837081FE01B} = {38944D1C-5368-4526-A778-61D7F92C7B39}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {ED59D88F-AF9F-4316-B770-DB21EC5B7327}
